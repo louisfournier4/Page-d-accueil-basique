@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+
+header {
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+header nav ul li a {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 700;
+    color: Black;
+    text-decoration: none;
+
+}
+
+#register {
+   
+    padding: 10px;
+    border-radius: 13px;
+    margin-left: 20px;
+    padding: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: lightgrey;
+    transition: background-color 0.3s ease;
+    
+   
+  
+    
+}
+
+#register:hover {
+    background-color: #726cee;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+
+    
+}
+
+#menu li img {
+    margin-right: 30px;
+}
+
+body {
+    margin: 40px;
+}
+
+body p{
+    font-size: 18px;
+    margin: 30px 0px 30px;
+    color: hsl(0, 0%, 41%);
+    line-height:25px;
+    font-family: "Epilogue", sans-serif;
+
+}
+
+body h1 {
+    font-family: "Epilogue", sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 100px;
+}
+
+body .bouton {
+    padding: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-decoration: none;
+    color: Black;
+    font-family: "Epilogue", sans-serif;
+    font-weight: 700;
+   
+    border-radius: 13px;
+    line-height: 100px;
+    background-color: lightgrey;
+    transition: background-color 0.3s ease;
+    
+    
+
+}
+
+.bouton:hover {
+    background-color: #726cee;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  
+}
+
+#main-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+
+}
+
+#main-page #image img{
+    width: 500px;
+    height: auto;
+    
+    
+}
+
+#partenaire {
+   display: flex;
+   justify-content: space-around;
+   margin-top: 50px;
+   width: auto;
+   height: 25px;
+}
+
+
+.attribution {
+    font-family: "Epilogue", sans-serif;
+    font-size: 15px; 
+    font-size: 11px;
+    text-align: center;
+}
+
+
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+
+
